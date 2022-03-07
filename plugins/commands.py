@@ -23,10 +23,10 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/MWUpdatez')
+                InlineKeyboardButton('💠 𝓒𝓗𝓐𝓝𝓝𝓔𝓛 💠', url='https://t.me/Newcinemazz')
             ],
             [
-                InlineKeyboardButton('♻️ HΞLᎮ ♻️', url=f"https://t.me/{temp.U_NAME}?start=help")
+                InlineKeyboardButton('♻️ 𝓗𝓔𝓛𝓟 ♻️', url=f"https://t.me/{temp.U_NAME}?start=help")
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -44,13 +44,13 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/MWUpdatez'),
-            InlineKeyboardButton('💠 UᎮDΛTΞS 💠', url='https://t.me/OpusTechz')
+            InlineKeyboardButton('💠 𝓒𝓗𝓐𝓝𝓝𝓔𝓛 💠', url='https://t.me/Newcinemazz'),
+            InlineKeyboardButton('💠 𝕲𝕽𝕺𝖀𝕻 💠', url='https://t.me/cinemakottakatwo)
             ],[      
-            InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
-            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
+            InlineKeyboardButton('♻️ ℋℰℒ𝒫 ♻️', callback_data='help'),
+            InlineKeyboardButton('♻️ 𝓐𝓑𝓞𝓤𝓣 ♻️', callback_data='about')
             ],[
-            InlineKeyboardButton('✅ SUBSCᏒIBΞ  ✅', url='https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA')
+            InlineKeyboardButton('✅ 𝓐𝓓𝓜𝓘𝓝 ✅', url='https://t.me/Tony_Stark06')
         ]]  
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -87,13 +87,13 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/MWUpdatez'),
-            InlineKeyboardButton('💠 UᎮDΛTΞS 💠', url='https://t.me/OpusTechz')
+            InlineKeyboardButton('💠 𝓒𝓗𝓐𝓝𝓝𝓔𝓛 💠', url='https://t.me/Newcinemazz'),
+            InlineKeyboardButton('💠 𝕲𝕽𝕺𝖀𝕻 💠', url='https://t.me/cinemakottakatwo)
             ],[      
-            InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
-            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
+            InlineKeyboardButton('♻️ 𝓗𝓔𝓛𝓟 ♻️', callback_data='help'),
+            InlineKeyboardButton('♻️ 𝓐𝓑𝓞𝓤𝓣 ♻️', callback_data='about')
             ],[
-            InlineKeyboardButton('✅ SUBSCᏒIBΞ  ✅', url='https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA')
+            InlineKeyboardButton('✅ 𝓐𝓓𝓜𝓘𝓝  ✅', url='https://t.me/Tony_Stark06')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
